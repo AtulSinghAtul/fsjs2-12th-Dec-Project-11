@@ -16,7 +16,7 @@ body {
 }
 
 .nav-header-section {
-  background-image: url(./Photos/mainBackground.png);
+  background-image: url(./assets/Photos/mainBackground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left 50% top 80%;
@@ -47,7 +47,7 @@ body {
   color: #fff;
 }
 
-img[src="./Icons/Logo.svg"] {
+img[src="./assets/Icons/Logo.svg"] {
   width: 100px;
 }
 
