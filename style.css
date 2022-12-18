@@ -30,6 +30,7 @@ body {
 }
 .nav-container {
   height: 10%;
+  padding: 0 60px;
 }
 .nav-items {
   width: 100%;
@@ -45,6 +46,10 @@ body {
   column-gap: 80px;
   list-style: none;
   color: #fff;
+}
+.list-items li:hover {
+  cursor: pointer;
+  color: rgb(75, 137, 253);
 }
 
 img[src="./assets/Icons/Logo.svg"] {
@@ -85,6 +90,12 @@ img[src="./assets/Icons/Logo.svg"] {
   border: none;
   padding: 15px 30px;
   border-radius: 40px;
+}
+.header-text button:hover {
+  background-color: #fff;
+  color: rgb(36, 89, 222);
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
 }
 
 /* logo container */
@@ -146,6 +157,7 @@ img[src="./assets/Icons/Logo.svg"] {
 .grid-child-box {
   position: relative;
 }
+
 .child {
   width: 300px;
   height: 350px;
@@ -169,6 +181,11 @@ img[src="./assets/Icons/Logo.svg"] {
   top: 99%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.flex-box:hover {
+  transition: all ease-in-out 0.9s;
+  transform: scale(1) translate(-50%, -100%);
+  cursor: pointer;
 }
 .flex-child {
   display: flex;
