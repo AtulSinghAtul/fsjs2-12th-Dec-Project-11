@@ -151,13 +151,30 @@ img[src="./assets/Icons/Logo.svg"] {
   justify-content: center;
   align-items: center;
 
-  column-gap: 10px;
-  row-gap: 100px;
+  column-gap: 30px;
+  row-gap: 50px;
 }
 .grid-child-box {
   position: relative;
 }
-
+.grid-child-box-1 {
+  margin-bottom: 150px;
+}
+.grid-child-box-2 {
+  margin-bottom: 90px;
+}
+.grid-child-box-5 {
+  margin-bottom: 90px;
+}
+.grid-child-box-6 {
+  margin-bottom: 150px;
+}
+.grid-child-box-7 {
+  margin-bottom: 150px;
+}
+.grid-child-box-8 {
+  margin-bottom: 90px;
+}
 .child {
   width: 300px;
   height: 350px;
