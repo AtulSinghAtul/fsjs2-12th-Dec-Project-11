@@ -1,5 +1,29 @@
-# Replicate the Following Output
+# Project- 11
 
-`Assests are Provided!`
+[Live Link](https://fsjs2-12th-dec-project-11.netlify.app/)
 
-![Project 4](./Real%20Estate%20-%20Desktop.png)
+## Name : Atul Singh
+
+---
+
+**The project took almost 5hrs to complete.**
+
+**What I learned in this project :**
+
+- _display: flex;_
+
+- _margin_
+
+- _padding_
+
+- _font-size_
+
+- _child selector_
+
+- _responsive unit_
+
+---
+
+![Project Screenshot](https://img.shields.io/badge/LiveClass--12thDec-Project--11-blue)
+
+![Project 11](./Real%20Estate%20-%20Desktop.png)
