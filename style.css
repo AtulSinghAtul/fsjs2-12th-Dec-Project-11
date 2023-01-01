@@ -3,9 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  overflow-x: hidden;
+}
 body {
   font-family: sans-serif;
   background-color: #000;
+  overflow-x: hidden;
 }
 .body-container {
   /* padding: 0 28px; */
@@ -14,7 +18,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.bar {
+  display: none;
+}
 .nav-header-section {
   background-image: url(./assets/Photos/mainBackground.png);
   background-repeat: no-repeat;
@@ -118,6 +124,7 @@ img[src="./assets/Icons/Logo.svg"] {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
   column-gap: 10%;
   font-size: 40px;
   font-family: serif;
@@ -432,4 +439,51 @@ footer {
 .footer-text > div > span:hover {
   color: rgb(154, 154, 154);
   cursor: pointer;
+}
+
+/* ************************************ */
+/************  Media Query *************/
+/**************************************/
+
+@media screen and (max-width: 768px) {
+  /****** nav header section ***********/
+  .nav-header-section {
+    padding: 0 30px 0 30px;
+  }
+  .nav-container {
+    padding: 0 10px;
+  }
+  .list-items {
+    display: none;
+  }
+  .bar {
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  /*********** header text **********/
+  .header-text {
+    align-items: center;
+    text-align: center;
+  }
+  .header-text h1 {
+    font-size: 45px;
+    color: #fff;
+    width: fit-content;
+  }
+  .header-text p {
+    font-size: 18px;
+    color: rgb(170, 169, 169);
+    width: fit-content;
+  }
+  /*********logo section *************/
+  .logo-section {
+    height: 100px;
+    padding: 0 20px;
+  }
+  .logo-section ul {
+    column-gap: 5%;
+    font-size: 25px;
+  }
 }
