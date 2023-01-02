@@ -82,6 +82,7 @@ img[src="./assets/Icons/Logo.svg"] {
   color: #fff;
   width: 750px;
 }
+
 .header-text p {
   font-size: 20px;
   color: rgb(170, 169, 169);
@@ -305,6 +306,7 @@ img[src="./assets/Icons/Logo.svg"] {
   transform: translate(-50%, -50%);
   border-radius: 30px;
 }
+
 .feature-text {
   display: flex;
   flex-direction: column;
@@ -337,6 +339,14 @@ img[src="./assets/Icons/Logo.svg"] {
   border-radius: 30px;
   font-weight: 600;
 }
+.feature-text button:hover {
+  background-color: #fff;
+  color: #2459de;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  border: 1px solid #2459de;
+}
+
 .subscribe-section {
   width: 100vw;
   height: fit-content;
@@ -894,5 +904,40 @@ footer {
   }
   .footer-text {
     margin-right: 0px;
+  }
+}
+
+@media all and (max-width: 2500px) and (min-width: 1440px) {
+  .typewriter {
+    display: block;
+    color: #fff;
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.1em; /* Adjust as needed */
+    animation: typing 8.5s steps(50, end) infinite,
+      blink-caret 0.5s step-end infinite;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
   }
 }
