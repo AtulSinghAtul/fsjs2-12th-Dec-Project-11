@@ -1,9 +1,12 @@
 # Project- 11 (HTML & CSS) Real Estate
 
-- [Live Link](https://fsjs2-12th-dec-project-11.netlify.app/)
-- [Findcoder Link](https://www.findcoder.io/project/real-estate/63a454101c432011560d0353)
-- [Youtube Link](https://www.youtube.com/channel/UCBNc9Vs9mAFxnAKjzWRqDFQ)
-- [Hashnode Link](https://atulsinghatul.hashnode.dev/)
+- [Project Live Link](https://fsjs2-12th-dec-project-11.netlify.app/)
+> ### Social Media Links:
+
+- ### [Portfolio Website Link](https://www.findcoder.io/u/atulsinghatul)
+- ### [Linkedin Link](https://www.linkedin.com/in/atul-singh-082529249/)
+- ### [Youtube Link](https://www.youtube.com/channel/UCBNc9Vs9mAFxnAKjzWRqDFQ)
+- ### [Hashnode Link](https://atulsinghatul.hashnode.dev/)
 
 ## Name : Atul Singh
 
